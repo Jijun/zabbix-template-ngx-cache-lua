@@ -1,0 +1,1 @@
+# zabbix-template-ngx-cache-lua
