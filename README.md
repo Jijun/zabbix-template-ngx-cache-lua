@@ -12,7 +12,7 @@
         location /cache {
             allow 127.0.0.1;
             deny all;
-            content_by lua_file /xx/stat.lua;
+            content_by_lua_file /xx/stat.lua;
         }
      }
    }
