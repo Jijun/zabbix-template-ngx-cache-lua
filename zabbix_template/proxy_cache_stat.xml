@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2018-01-31T05:12:13Z</date>
+    <date>2018-01-31T06:15:07Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -33,7 +33,7 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -52,7 +52,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>EXPIRED Count</description>
+                    <description>EXPIRED Count Delta</description>
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap/>
@@ -72,7 +72,7 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -91,7 +91,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>HIT Count</description>
+                    <description>HIT Count Delta</description>
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap/>
@@ -111,7 +111,7 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -130,7 +130,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>MISS Count</description>
+                    <description>MISS Count Delta</description>
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap/>
@@ -204,7 +204,7 @@
             <graph_items>
                 <graph_item>
                     <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
+                    <drawtype>1</drawtype>
                     <color>1A7C11</color>
                     <yaxisside>0</yaxisside>
                     <calc_fnc>2</calc_fnc>
