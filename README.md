@@ -9,7 +9,7 @@
             #collect hit expired miss etc.
             log_by_lua_file /xx/collect.lua;
         }
-        location /cache {
+        location /cache-status {
             allow 127.0.0.1;
             deny all;
             content_by_lua_file /xx/stat.lua;
