@@ -5,6 +5,8 @@
       lua_shared_dict cache_stat 1m;
       server {
         location /cache {
+            proxy_cache page_cache;
+            #collect hit expired miss etc.
             log_by_lua_file /xx/collect.lua;
         }
         location /cache {
