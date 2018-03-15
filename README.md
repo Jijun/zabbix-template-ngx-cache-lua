@@ -16,3 +16,7 @@
         }
      }
    }
+
+# Graph
+
+![image](https://raw.githubusercontent.com/Jijun/zabbix-template-ngx-cache-lua/master/Selection_188.png)
