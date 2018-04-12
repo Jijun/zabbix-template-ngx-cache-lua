@@ -1,6 +1,6 @@
 #!/bin/bash
 HOST=127.0.0.1
-PORT="80"
+PORT=80
 # Functions to return cache stats
 function hit {
 /usr/bin/curl "http://$HOST:$PORT/cache-status" 2>/dev/null| grep 'HIT' | awk '{print $2}'
